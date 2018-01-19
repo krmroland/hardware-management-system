@@ -1,0 +1,54 @@
+.ralative {
+	position: relative !important;
+}
+
+.z-1030 {
+	z-index: 1030;
+}
+
+.icon-small {
+	width: 40px;
+	height: 40px;
+}
+.icon-medium {
+	width: 100px;
+	height: 100px;
+}
+
+.icon-large {
+	width: 150px;
+	height: 150px;
+}
+
+.bg-masked {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.btn:hover {
+	cursor: pointer;
+}
+
+.level {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.font-size-2 {
+	font-size: 1.25em;
+}
+
+.font-size-1 {
+	font-size: 0.75em;
+}
+
+.underline-0 {
+	text-decoration: none !important;
+}
+
+.has-cusor {
+	cursor: pointer !important;
+
+	&:hover {
+		cursor: pointer !important;
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "name": "lawma/laravel-forms",
+    "description": "A form wrapper for  laravel, implemented with bootstrap fields",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Ahimbisibwe Roland",
+            "email": "roland@lawma.ug"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lawma\\Forms\\": "src/"
+        }
+    },
+
+    "require": {
+        "illuminate/support": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Lawma\\Forms\\ServiceProvider"],
+            "aliases": {
+                "Form": "Lawma\\Forms\\Facade"
+            }
+        }
+    }
+}
